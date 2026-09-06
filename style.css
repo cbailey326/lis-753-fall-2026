@@ -3,9 +3,6 @@ html {
     font: 20px serif;
 }
 section {
-    font: italic 18px serif;
-}
-div {
   width: 600px;
   margin: 0 auto;
   background-color: #83a0a5;
