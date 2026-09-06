@@ -1,8 +1,7 @@
+header {
+    font: 24px serif;
+};
 body {
     background: #B8E6FE;
     font: 20px fantasy;
-};
-section {
-    border: solid;
-    font: italic 20px serif;
 }
