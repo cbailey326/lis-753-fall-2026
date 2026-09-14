@@ -4,7 +4,10 @@ html {
     h1 {
       font-weight: bolder;
       text-decoration: underline;
-    };
+    }
+    h2 {
+      font-style: italic;
+    }
     section {
   width: 1000px;
   background-color: #2d2e2e;
