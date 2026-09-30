@@ -27,8 +27,10 @@ h2 {
 #main-navigation ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 12px;
   list-style: none;
+  margin: 32px;
 }
 
 #main-navigation ul li a {
@@ -37,4 +39,8 @@ h2 {
   color: white;
   font-weight: bold;
   text-decoration: none;
+}
+
+#main-navigation ul li a:hover {
+  background-color: violet;
 }
