@@ -39,6 +39,8 @@ h2 {
   color: white;
   font-weight: bold;
   text-decoration: none;
+  display: block;
+  text-align: center;
 }
 
 #main-navigation ul li a:hover {
