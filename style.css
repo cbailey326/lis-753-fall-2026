@@ -23,3 +23,17 @@ h2 {
   border: 5px dotted black;
   color: black
 }
+
+#main-navigation ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+#main-navigation ul li a {
+  padding: 8px 20px;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+}
