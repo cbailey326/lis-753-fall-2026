@@ -46,3 +46,9 @@ h2 {
 #main-navigation ul li a:hover {
   background-color: violet;
 }
+
+table {
+  border-radius: 5px;
+  padding: 10px;
+  border: 2px solid black;  
+}
