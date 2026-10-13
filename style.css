@@ -1,6 +1,6 @@
 body {
-  background: #B8E6FE;
-  font-family: "Helvetica", "Arial", sans-serif;
+  background: lightgray;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
@@ -35,7 +35,7 @@ h2 {
 
 #main-navigation ul li a {
   padding: 8px 20px;
-  background-color: blueviolet;
+  background-color: blue;
   color: white;
   font-weight: bold;
   text-decoration: none;
@@ -44,12 +44,18 @@ h2 {
 }
 
 #main-navigation ul li a:hover {
-  background-color: violet;
+  background-color:dodgerblue ;
 }
 
 table {
-  border-radius: 5px;
-  padding: 10px;
-  border: 2px solid black;  
-  display: flex;
+ display: flex;
+ align-items: center;
+ background-color: white;
+ border-radius: 5px;
+ padding: 10px;
+ border: 2px solid black;  
+}
+
+th {
+
 }
