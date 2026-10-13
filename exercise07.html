@@ -19,9 +19,13 @@
         </ul>
     </nav>
 
-    <h1>Library Events</h1>
+    <div class="header">
+      <h1>Library Programs</h1>
+      <a>Community events and activities</a>
+    </div>
 
-    <table>
+    <div class="programs">
+      <table>
         <caption>Upcoming Programs</caption>
         <thead>
             <tr>
@@ -69,17 +73,19 @@
                 <td>Everyone</td>
             </tr>
         </tbody>
-    </table>
+      </table>
+    </div>
 
+  <div class="form">
     <h2>Register</h2>
     <form>
         <div>
-            <label for="name">Your name</label>
-            <input type="text" name="name" placeholder="Your Name">
+            <label for="name">Your name:</label>
+            <input type="text" name="name" placeholder="Name">
         </div>
         <div>
-            <label for="email">Your email</label>
-            <input type="email" name="email" placeholder="Your email">
+            <label for="email">Your email:</label>
+            <input type="email" name="email" placeholder="Email Address">
         </div>
         <div>
             <label for="program">Select a program</label>
@@ -103,5 +109,7 @@
             <input type="submit" value="Register">
         </div>
     </form>
+  </div>
+    
   </body>
 </html>

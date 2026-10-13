@@ -1,6 +1,12 @@
-body {
-  background: lightgray;
+* {
+  box-sizing: border-box; 
   font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: white;
+  margin: 10px auto;
+  width: 90%;
 }
 
 h1 {
@@ -47,16 +53,61 @@ h2 {
   background-color:dodgerblue ;
 }
 
+.programs {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;  
+  background-color: lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
 table {
- display: flex;
- align-items: center;
- flex-direction: column;
- background-color: white;
- border-radius: 5px;
- padding: 10px;
- border: 2px solid black;  
+  border-collapse: collapse;
 }
 
 th {
+  border: 2px solid black;
+  background-color: skyblue;
+  font-size: 18px;
+}
 
+td {
+  border: 2px solid black;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+td:hover {
+  background-color: white;
+}
+
+caption {
+  font-size: 24px;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.header {
+  background-color: lightgrey;
+  border: 2px solid black;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.form {
+  background-color: lightgrey;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+
+.form h2 {
+  text-align: center;
 }
