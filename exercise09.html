@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 8</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Library Programs</h1>
+        <nav id="main-navigation">
+          <ul>
+            <li><a alt="Go to Exercise 5" href="exercise05.html">Exercise 5</a></li>
+            <li><a alt="Go to Exercise 6" href="exercise06.html">Exercise 6</a></li>
+            <li><a alt="Go to Exercise 7" href="exercise07.html">Exercise 7</a></li>
+            <li><a alt="Go to Github Repository" href="https://github.com/cbailey326/lis-753-fall-2026">Github</a></li>
+          </ul>
+        </nav>    
+      </header>
+      <main>
+      <article class="column">
+        <table>
+          <caption>Upcoming Programs</caption>
+            <thead>
+              <tr>
+                <th scope="col">Program</th>
+                <th scope="col">Date</th>
+                <th scope="col">Time</th>
+                <th scope="col">Location</th>
+                <th scope="col">Audience</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Community Book Club</td>
+                <td>Oct. 8</td>
+                <td>6:30 PM</td>
+                <td>Room A</td>
+                <td>Adults</td>
+              </tr>
+              <tr>
+                <td>Family Story Time</td>
+                <td>Oct. 10</td>
+                <td>10:00 AM</td>
+                <td>Children's Room</td>
+                <td>Families</td>
+              </tr>
+              <tr>
+                <td>Genealogy Workshop</td>
+                <td>Oct. 12</td>
+                <td>2:00 PM</td>
+                <td>Room B</td>
+                <td>Adults</td>
+              </tr>
+              <tr>
+                <td>Intro to 3D Printing</td>
+                <td>Oct. 15</td>
+                <td>6:00 PM</td>
+                <td>Makerspace</td>
+                <td>Teens &amp; Adults</td>
+              </tr>
+              <tr>
+                <td>Local History Talk</td>
+                <td>Oct. 18</td>
+                <td>1:00 PM</td>
+                <td>Auditorium</td>
+                <td>Everyone</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+        <aside>
+          <h2>Register</h2>
+          <form>
+            <div>
+              <label for="name">Your name:</label>
+              <input type="text" name="name" id="name" placeholder="Name">
+            </div>
+            <div>
+              <label for="email">Your email:</label>
+              <input type="email" name="email" id="email" placeholder="Email Address">
+            </div>
+            <div>
+              <label for="program">Select a program</label>
+              <select name="program" id="program">
+                <option name="book-club">Community Book Club</option>
+                <option name="story-time">Family Story Time</option>
+                <option name="genealogy">Genealogy Workshop</option>
+                <option name="3d-printing">Intro to 3D Printing</option>
+                <option name="local-history">Local History Talk</option>
+              </select>
+            </div>
+            <div>
+              <label for="in-person">In Person</label>
+              <input type="radio" value="In Person" name="in-person" id="in-person">
+            </div>
+            <div>
+              <label for="online">Online</label>
+              <input type="radio" value="Online" name="online" id="online">
+            </div>
+            <div>
+              <input type="submit" value="Register">
+            </div>
+          </form>
+        </aside>
+      </main>
+    </div>
+  </body>
+</html>
