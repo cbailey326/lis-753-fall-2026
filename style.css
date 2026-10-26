@@ -10,52 +10,6 @@ body {
   width: 90%;
 }
 
-#main-navigation ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 12px;
-  list-style: none;
-  margin-bottom: 0px;
-}
-
-#main-navigation ul li a {
-  padding: 8px 20px;
-  background-color: blue;
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-  display: block;
-  text-align: center;
-  border: 2px solid black;
-}
-
-#main-navigation ul li a:hover {
-  background-color:dodgerblue ;
-}
-
-.container {
-  width: 960px;
-  margin: 0 auto;
-  background-color: lightgrey;
-  padding: 48px 54px;
-  box-sizing: border-box;
-}
-
-main {
-  display: flex;
-  column-gap: 60px;
-  justify-content: space-around;
-}
-
-main article {
-  width: calc(100% - 280px - 60px);
-}
-
-main aside {
-  width: 280px;
-}
-
 header h1 {
   margin-bottom: 0;
   text-align: center;
@@ -91,4 +45,89 @@ caption {
   font-size: 24px;
   font-weight: bolder;
   padding: 10px;
+}
+
+.container {
+  background: lightgrey;
+  padding: 12px;
+  margin: 0 auto;
+  max-width: 98%;
+}
+
+#main-navigation ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: none;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+#main-navigation ul li a {
+  padding: 8px 20px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  border: 2px solid black;
+}
+
+#main-navigation ul li a:hover {
+  background-color:dodgerblue ;
+}
+
+/* mobile */
+@media all and (min-width: 375px) {
+  
+}
+
+/* tablet */
+@media all and (min-width: 768px) {
+
+  .container {
+    max-width: 80%
+  }
+
+  #main-navigation ul {
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+  }
+  
+}
+
+/* desktop */
+@media all and (min-width: 1200px) {
+
+  main {
+    display: flex;
+    column-gap: 60px;
+    justify-content: space-around;
+  }
+
+  main article {
+    width: calc(100% - 280px - 60px);
+  }
+
+  main article table {
+    width: 100%;
+  }
+
+  main aside {
+    width: 280px;
+  }
+
+  .container {
+    width: 960px;
+    padding: 48px 54px;
+  }
+
+  #main-navigation ul {
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+  }
+  
 }
