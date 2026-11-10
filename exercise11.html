@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 11</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Library Programs</h1>
+        <nav id="main-navigation">
+          <ul>
+            <li><a alt="Go to Exercise 7" href="exercise07.html">Exercise 7</a></li>
+            <li><a alt="Go to Exercise 8" href="exercise08.html">Exercise 8</a></li>
+            <li><a alt="Go to Exercise 9" href="exercise09.html">Exercise 9</a></li>
+            <li><a alt="Go to Exercise 10" href="exercise10.html">Exercise 10</a></li>
+            <li><a alt="Go to Github Repository" href="https://github.com/cbailey326/lis-753-fall-2026">Github</a></li>
+          </ul>
+        </nav>    
+      </header>
+      <main>
+      <article class="column">
+        <table>
+          <caption>Upcoming Programs</caption>
+            <thead>
+              <tr>
+                <th scope="col">Program</th>
+                <th scope="col">Date</th>
+                <th scope="col">Time</th>
+                <th scope="col">Location</th>
+                <th scope="col">Audience</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Community Book Club</td>
+                <td>Oct. 8</td>
+                <td>6:30 PM</td>
+                <td>Room A</td>
+                <td>Adults</td>
+                <td><button type="button" class="details-button" data-target="book-club">View Details</button></td>
+              </tr>
+              <tr>
+                <td>Family Story Time</td>
+                <td>Oct. 10</td>
+                <td>10:00 AM</td>
+                <td>Children's Room</td>
+                <td>Families</td>
+                <td><button type="button" class="details-button" data-target="storytime">View Details</button></td>
+              </tr>
+              <tr>
+                <td>Genealogy Workshop</td>
+                <td>Oct. 12</td>
+                <td>2:00 PM</td>
+                <td>Room B</td>
+                <td>Adults</td>
+                <td><button type="button" class="details-button" data-target="genealogy">View Details</button></td>
+              </tr>
+              <tr>
+                <td>Intro to 3D Printing</td>
+                <td>Oct. 15</td>
+                <td>6:00 PM</td>
+                <td>Makerspace</td>
+                <td>Teens &amp; Adults</td>
+                <td><button type="button" class="details-button" data-target="3d-printing">View Details</button></td>
+              </tr>
+              <tr>
+                <td>Local History Talk</td>
+                <td>Oct. 18</td>
+                <td>1:00 PM</td>
+                <td>Auditorium</td>
+                <td>Everyone</td>
+                <td><button type="button" class="details-button" data-target="local-history">View Details</button></td>
+              </tr>
+            </tbody>
+          </table>
+        <div class="about">
+          <h2>Program Details</h2>
+          <a>Select a program to learn more.</a>
+          <div id="book-club" class="program-details" hidden>
+            <h3>Book Club Details</h3>
+            <p>Join a group to discuss current popular books.</p>
+          </div>
+          <div id="storytime" class="program-details" hidden>
+            <h3>Family Story Time Details</h3>
+            <p>Our latest weekly story time enjoy by our community's youngest patrons.</p>
+          </div>
+          <div id="genealogy" class="program-details" hidden>
+            <h3>Genealogy Workshop Details</h3>
+            <p>Learn how to research family trees in our workshop.</p>
+          </div>
+          <div id="3d-printing" class="program-details" hidden>
+            <h3>Intro to 3D Printing Details</h3>
+            <p>Learn the basics of how to use a 3D printing program.</p>
+          </div>
+          <div id="local-history" class="program-details" hidden>
+            <h3>Local History Talk Details</h3>
+            <p>Learn the community's history as presented by our town historian.</p>
+          </div>
+        </div>
+        </article>
+        <aside>
+          <h2>Register</h2>
+          <form>
+            <div>
+              <label for="name">Your name:</label>
+              <input type="text" name="name" id="name" placeholder="Name">
+            </div>
+            <div>
+              <label for="email">Your email:</label>
+              <input type="email" name="email" id="email" placeholder="Email Address">
+            </div>
+            <div>
+              <label for="program">Select a program</label>
+              <select name="program" id="program">
+                <option name="book-club">Community Book Club</option>
+                <option name="story-time">Family Story Time</option>
+                <option name="genealogy">Genealogy Workshop</option>
+                <option name="3d-printing">Intro to 3D Printing</option>
+                <option name="local-history">Local History Talk</option>
+              </select>
+            </div>
+            <div>
+              <label for="in-person">In Person</label>
+              <input type="radio" value="In Person" name="in-person" id="in-person">
+            </div>
+            <div>
+              <label for="online">Online</label>
+              <input type="radio" value="Online" name="online" id="online">
+            </div>
+            <div>
+              <input type="submit" value="Register">
+            </div>
+          </form>
+        </aside>
+      </main>
+    </div>
+    <script src="./script-exer11.js"></script>
+  </body>
+</html>
