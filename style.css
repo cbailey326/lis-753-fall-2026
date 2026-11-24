@@ -175,4 +175,5 @@ aside {
   background-color: white;
   padding: 12px;
   animation: fade-in 1.2s ease-out;
+  margin: 12px;
 }
