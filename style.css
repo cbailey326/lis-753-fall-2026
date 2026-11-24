@@ -48,7 +48,12 @@ caption {
 }
 
 aside {
-  background-color: #D0F1F7;
+  border: 2px solid black;
+  background-color: whitesmoke;
+  width: 60%;
+  height: 75%;
+  padding: 12px;
+  margin: 12px;
 }
 
 .container {
