@@ -29,7 +29,11 @@ form.addEventListener("submit", function(event) {
     const program = document.querySelector("#regis-program").value;
 
     const message = "Thanks, " + name + ", for registering for " + program + "!";
+    
+    const confirmation = document.querySelector("#confirm-message");
 
-    console.log(message);
+    confirmation.textContent = message;
+
+    confirmation.hidden = false;
 
 });
